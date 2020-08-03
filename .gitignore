@@ -340,5 +340,5 @@ ASALocalRun/
 healthchecksdb
 
 # Key privacy
-*.env
-*/keys.json
+.env
+keys.json
