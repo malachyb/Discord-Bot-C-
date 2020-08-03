@@ -45,6 +45,7 @@ namespace Discord_Bot_CS
                     break;
                 case "dog":
                 case "cat":
+                case "lizard":
                 case "giraffe":
                 case "monkey":
                     await msg.Channel.SendMessageAsync(await Randoms.ImageAsync(client, command[0], getKey("imgur")));
